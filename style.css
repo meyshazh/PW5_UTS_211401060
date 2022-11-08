@@ -1,0 +1,77 @@
+/* home page */
+.navbar {
+    z-index: 1;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.jumbotron-cover {
+    margin-top: 65px;
+    background-image: url(/cover.jpg);
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.jumbotron-cover::after {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -35px;
+    background-color: white;
+    padding: 17px;
+}
+
+.carousel-inner {
+    margin-bottom: 45px;
+    padding-left: 50px;
+}
+
+
+.jumbotron {
+    background-color: white;
+}
+
+.btn {
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+/* member page */
+.container-card-row1 {
+    margin-top: 100px;
+}
+
+.container-card-row2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* discography page */
+.info-panel-disc {
+    margin-top: 10%;
+    background-color: whitesmoke;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 13px;
+}
+
+.card-disc {
+    margin-top: 50px;
+    margin-left: 105px;
+}
+
+.yt-container {
+    text-align: center;
+}
